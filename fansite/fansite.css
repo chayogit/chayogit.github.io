@@ -1,4 +1,11 @@
+* {margin: 0; padding: 0;}
+
 #welcome{
   font-size: 48px;
   color: rgb(88, 196, 234);
+}
+
+header{
+  background-color: black;
+  color: white;
 }
