@@ -11,7 +11,11 @@ header{
   }
 
 
-#main-banner{height: 28rem; background-image: url("resources/ladyandthetramp.jpeg");}
+#main-banner{height: 18rem; padding-top: 10rem; padding-left: 20px; background-image: url("resources/ladyandthetramp.jpeg");font-size: 5rem; color: #333;}
 
 #nav-container > ul > li {display: inline-block; padding: 1.5rem 2rem; color: white;}
-#nav-container > ul > li(1t) 
+.movie-article {
+  color: #999;
+  font-size: 1.2rem; padding: 1rem 1rem;
+}
+
