@@ -45,4 +45,12 @@ h1{
   padding-top: 0;
   justify-content: space-between;}
 
+  .img-flex-products{
+    flex-basis: 33%;
+  }
+
+  .img-flex-products > img {
+    width: 100%;
+  }
+
 
