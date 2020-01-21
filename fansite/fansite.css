@@ -21,7 +21,12 @@ header{
 }
 
 h1{
-  margin-top: 10px;
+  color: #333;
+}
+
+h2{
+  margin-top: 1em;
+  color: #444;
 }
 
 .main .container{
@@ -45,12 +50,37 @@ h1{
   padding-top: 0;
   justify-content: space-between;}
 
-  .img-flex-products{
-    flex-basis: 33%;
-  }
 
-  .img-flex-products > img {
-    width: 100%;
-  }
+
+.img-flex-products, .img-flex-photos{
+  flex-basis: 30%;
+  justify-content: space-between;
+}
+
+.img-flex-photos {
+  flex-basis: 33%;
+  padding-right: 0.5em;;
+}
+
+.img-flex-products > img,  .img-flex-photos > img{
+  width: 100%;
+}
+
+.img-flex-products span{
+  color: #777;
+}
+
+#s-Product {
+  padding-bottom: 3em;
+}
+
+footer{
+  color: #000;
+  height: 200px;
+  background-color: #000;
+  background-image: url("resources/logo.jpeg");
+  background-position: center;
+  background-size: 50% 100%;
+  background-repeat:  no-repeat;
 
 
